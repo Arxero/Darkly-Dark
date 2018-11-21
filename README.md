@@ -1,3 +1,3 @@
 # Darkly Dark Shop
 
-Simple and yet, beautiful desing of online shop.
+Simple and yet, beautiful design of online shop.
