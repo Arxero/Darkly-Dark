@@ -5,6 +5,7 @@ header {
     flex-wrap: wrap;
     flex: 1 0 100%;
     position: relative;
+    padding-bottom: 1rem;
     & nav {
         // &>ul {
         //     display: flex;
@@ -105,9 +106,9 @@ header nav>ul {
         &>ul>li:not(:last-child) {
             padding: 0 0 0.5rem 0;
         }
-        & ul li ul li a {
-            // background: var(--dark);
-        }
+        // & ul li ul li a {
+        //     background: var(--dark);
+        // }
     }
     #nav-toggle:checked+header nav {
         display: block;

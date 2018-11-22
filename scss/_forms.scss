@@ -1,0 +1,49 @@
+.form-wrapper {
+    background: var(--dark);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & form {
+        max-width: 30rem;
+        width: 30rem;
+        padding: 1rem;
+        & h1 {
+            padding-bottom: .5rem;
+        }
+        & p {
+            padding: .6rem 0;
+        }
+        & input[type=submit], input[type=password], input[type=text], textarea {
+            width: 100%;
+            padding: .8rem;
+            border-radius: 2px;
+            outline: none;
+            border: none;
+            background: rgb(224, 224, 224);
+            font-size: 1.1rem;
+        }
+        & input[type=submit] {
+            text-transform: uppercase;
+            cursor: pointer;
+            background: var(--nav-blue);
+            color: white;
+            &:hover {
+                background: rgb(224, 224, 224);
+                color: var(--nav-blue);
+            }
+        }
+
+        & textarea {
+            height: 12rem;
+            resize: vertical;
+        }
+
+        & label {
+           display: inline-block;
+           margin-bottom: .3rem; 
+        }
+
+    }
+}
+

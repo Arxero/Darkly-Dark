@@ -32,27 +32,39 @@
             </nav>
         </header>
         <main>
-            <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+            <div class="form-wrapper">
+    <form action="#">
+        <h1>Register</h1>
+        <label>Please fill in this form to create an account.</label>
 
-<div class="container">
-  <h1>404</h1>
+        <p>
+            <input type="text" name="username" placeholder="Your username">
+        </p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+        <p>
+            <input type="text" name="email" placeholder="Your email">
+        </p>
+
+        <p>
+            <input type="password" name="password" placeholder="Your password">
+        </p>
+
+        <p>
+            <input type="password" name="password" placeholder="Repeat password">
+        </p>
+
+        <p>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </p>
+
+        <p>By creating an account you agree to our <a href="#">Terms &amp; Privacy</a>.</p>
+
+        <p>
+            <input type="submit" value="register">
+        </p>
+
+    </form>
 </div>
-
         </main>
         <footer></footer>
     </div>

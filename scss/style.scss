@@ -3,6 +3,7 @@
 @import './variables';
 @import './reset';
 @import './typography';
+@import './forms';
 @import './navigatoin';
 
 body {
@@ -14,6 +15,6 @@ body {
 
 .site {
     background: #222222;
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 2rem 2rem 2rem;
     border-radius: 3px;
 }
