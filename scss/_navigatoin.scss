@@ -24,9 +24,6 @@ header {
             background: #222222;
             border-radius: 3px;
         }
-        & ul li:last-child ul {
-            width: 8.4rem;
-        }
         &>ul>li>ul {
             top: 100%;
             left: 0; 
@@ -113,6 +110,8 @@ header {
         } // & ul li ul li a {
         //     background: var(--dark);
         // }
+
+       
     }
     #nav-toggle:checked+header nav {
         display: block;
@@ -136,5 +135,9 @@ header {
         opacity: 1;
         pointer-events: inherit;
         transform: translateY(0);
+    }
+
+    ul li:last-child ul {
+        width: 8.4rem;
     }
 }
