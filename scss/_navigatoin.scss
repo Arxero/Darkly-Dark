@@ -6,6 +6,9 @@ header {
     flex: 1 0 100%;
     position: relative;
     padding-bottom: 1rem;
+    //this was added because I need on home page no padding on .site
+    margin-left: 2rem;
+    margin-right: 2rem;
     & nav {
         & ul {
             padding: 0;

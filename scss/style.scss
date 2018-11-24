@@ -6,6 +6,7 @@
 @import './forms';
 @import './navigatoin';
 @import './about';
+@import './gallery';
 
 body {
     background: #111111;
@@ -16,6 +17,23 @@ body {
 
 .site {
     background: #222222;
-    padding: 0.7rem 2rem 2rem 2rem;
+    padding: 0.7rem 0rem 2rem 0rem;
     border-radius: 3px;
+}
+
+//blog
+.blog-container {
+    //this was added because I need on home page no padding on .site
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+//home page styles
+.home-container {
+    
+    .slider {
+        background-image: url('../images/home/desk-article-main-image.jpg');
+        background-size: cover;
+        height: 30rem;
+    }
 }

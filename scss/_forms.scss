@@ -4,6 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    //this was added because I need on home page no padding on .site
+    margin-left: 2rem;
+    margin-right: 2rem;
+
     & form {
         max-width: 30rem;
         width: 30rem;
