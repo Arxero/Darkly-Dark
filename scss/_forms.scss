@@ -1,5 +1,5 @@
 .form-wrapper {
-    background: var(--dark);
+    // background: var(--dark);
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -59,9 +59,11 @@
             border: none;
             outline: none;
             background: #545A5E;
-            width: 30rem;
+            width: 100%;
+            max-width: 30rem;
             color: #eeeeee;
             font-size: 1.2rem;
+            margin-bottom: .5rem;
         }
         
         input[type=text]::placeholder {

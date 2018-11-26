@@ -110,7 +110,8 @@ header {
         }
         &>ul>li:not(:last-child) {
             padding: 0 0 0.5rem 0;
-        } // & ul li ul li a {
+        } 
+        // & ul li ul li a {
         //     background: var(--dark);
         // }
 
@@ -173,6 +174,9 @@ footer {
             list-style: none;
             text-transform: capitalize;
         }
+        .address li:nth-child(2) {
+            text-transform: initial;
+        }
 
         .quick-links li:not(:last-child), .address li:not(:last-child){
             margin-bottom: .5rem;
@@ -185,11 +189,35 @@ footer {
                 margin-right: .6rem;
             }
 
-            a:hover {
+            a {
                 color: var(--text-color);
+                &:hover {
+                    color: var(--nav-blue);
+                }
             }
         }
+
     }
+            @media screen and (max-width: 600px){
+                .footer-container {
+                    display: block;
+
+                    nav {
+                        margin-bottom: 2rem;
+                        text-align: center;
+
+                        .follow-us ul{
+                            display: block;
+                            
+                            li {
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                }
+            }
+
     .copyright {
         background: #1a1a1a;
         padding: 1rem;
