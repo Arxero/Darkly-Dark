@@ -4,6 +4,7 @@
 @import './reset';
 @import './typography';
 @import './forms';
+@import './buttons.scss';
 @import './navigatoin';
 @import './about';
 @import './gallery';
@@ -17,7 +18,7 @@ body {
 
 .site {
     background: #222222;
-    padding: 0.7rem 0rem 2rem 0rem;
+    padding: 0.7rem 0rem 0rem 0rem;
     border-radius: 3px;
 }
 
@@ -71,41 +72,6 @@ body {
             padding: 0;
             line-height: 1.2;
         }
-        
-        button {
-            padding: 1.2rem 2.2rem 1.2rem 2.2rem;
-            outline: none;
-            border: none;
-            border-radius: 32px;
-            text-transform: uppercase;
-            margin: .7rem;
-            font-size: 1rem;
-            box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
-            cursor: pointer;
-            background: var(--nav-blue);
-            animation: bouncy 5s infinite linear;
-            position: relative;
-            
-            &:hover {
-                background: #d80101;
-                transition: background-color .5s ease-in-out;
-            }
-
-            a {
-                color: white;
-                text-decoration: none;
-            }
-        }
-
-        @keyframes bouncy {
-            0%   {top: 0em;}
-            40%  {top: 0em;}
-            43%  {top: 0.9em;}
-            46%  {top: 0em;}
-            48%  {top: -0.4em;}
-            50%  {top: 0em;}
-            100% {top: 0em;}
-        }
     }
 
     .intro  {
@@ -123,25 +89,6 @@ body {
             letter-spacing: 2px;
         }
 
-        button {
-            padding: .9rem 2.4rem;
-            border-radius: 20px;
-            border: none;
-            background: var(--nav-blue);
-            box-shadow: var(--default-box-shadow);
-            cursor: pointer;
-            margin: 1rem;
-            
-            &:hover {
-                background: #d80101;
-                transition: background-color .5s ease-in-out;
-            }
-
-            & a {
-                color: white;
-                text-decoration: none;
-            }
-        }
     }
 
     .services {
@@ -169,15 +116,15 @@ body {
         .services-wrapper {
             padding: 1rem;
             display: flex;
-            // flex-wrap: wrap;
+            flex-wrap: wrap;
 
             .service {
                 box-shadow: var(--default-box-shadow);
                 margin: 1rem;
-                flex: 1 0 30%;
+                flex: 1 1 16.00rem;
                 background: var(--dark);
                 border-radius: 5px;
-                cursor: pointer;
+                // cursor: pointer;
                 
                 p {
                     padding: 1rem 1.5rem;
@@ -193,24 +140,6 @@ body {
             }
         }
 
-        button {
-            padding: .8rem 2.3rem;
-            border-radius: 3px;
-            border: none;
-            background: var(--nav-blue);
-            box-shadow: var(--default-box-shadow);
-            cursor: pointer;
-            margin: 1rem;
-            &:hover {
-                background: #d80101;
-                transition: background-color .5s ease-in-out;
-            }
-
-            & a {
-                color: white;
-                text-decoration: none;
-            }
-        }
     }
 
     .newsletter {
@@ -232,40 +161,8 @@ body {
         }
 
         p {
-            padding-bottom: 1.5rem;
-        }
-
-        form {
-            input[type=text] {
-                padding: .7rem;
-                border-radius: 5px;
-                border: none;
-                outline: none;
-                background: #545A5E;
-                width: 30rem;
-                color: #eeeeee;
-                font-size: 1.2rem;
-            }
-            
-            input[type=text]::placeholder {
-                font-style: italic;
-            }
-            input[type=submit] {
-                padding: .7rem 2.2rem;
-                border-radius: 5px;
-                border: none;
-                outline: none;
-                background: var(--nav-blue);
-                color: #eeeeee;
-                font-size: 1.2rem;
-                margin-left: .5rem;
-                cursor: pointer;
-
-                &:hover {
-                    background: #d80101;
-                    transition: background-color .5s ease-in-out;
-                }
-            }
+            padding-top: .7rem;
+            padding-bottom: 1.0rem;
         }
     }
 }
