@@ -5,8 +5,7 @@ header {
     flex-wrap: wrap;
     flex: 1 0 100%;
     position: relative;
-    padding-bottom: 1rem;
-    //this was added because I need on home page no padding on .site
+    padding-bottom: 1rem; //this was added because I need on home page no padding on .site
     margin-left: 2rem;
     margin-right: 2rem;
     & nav {
@@ -29,7 +28,7 @@ header {
         }
         &>ul>li>ul {
             top: 100%;
-            left: 0; 
+            left: 0;
             padding-top: .3rem;
             & li {
                 width: 100%;
@@ -71,7 +70,6 @@ header {
     }
 }
 
-
 .site-title {
     font-size: 2rem;
     font-weight: bold;
@@ -110,12 +108,9 @@ header {
         }
         &>ul>li:not(:last-child) {
             padding: 0 0 0.5rem 0;
-        } 
-        // & ul li ul li a {
+        } // & ul li ul li a {
         //     background: var(--dark);
         // }
-
-       
     }
     #nav-toggle:checked+header nav {
         display: block;
@@ -140,7 +135,6 @@ header {
         pointer-events: inherit;
         transform: translateY(0);
     }
-
     ul li:last-child ul {
         width: 8.4rem;
     }
@@ -149,27 +143,23 @@ header {
 //footer
 footer {
     box-shadow: var(--default-box-shadow);
-
     .footer-container {
         background: #222222;
         display: flex;
         flex-wrap: wrap;
         padding: 2rem;
         justify-content: space-around;
-
         nav {
             // flex: 1 0 16rem;
             // padding-top: 1.5rem;
             margin: 1rem;
         }
-
         ul {
             padding: 0;
         }
         h3 {
             text-transform: capitalize;
         }
-
         li {
             list-style: none;
             text-transform: capitalize;
@@ -177,18 +167,15 @@ footer {
         .address li:nth-child(2) {
             text-transform: initial;
         }
-
-        .quick-links li:not(:last-child), .address li:not(:last-child){
+        .quick-links li:not(:last-child),
+        .address li:not(:last-child) {
             margin-bottom: .5rem;
         }
-
-        .follow-us ul{
+        .follow-us ul {
             display: flex;
-
             li:not(:last-child) {
                 margin-right: .6rem;
             }
-
             a {
                 color: var(--text-color);
                 &:hover {
@@ -196,28 +183,24 @@ footer {
                 }
             }
         }
-
     }
-            @media screen and (max-width: 600px){
-                .footer-container {
-                    display: block;
+    @media screen and (max-width: 600px) {
+        .footer-container {
+            display: block;
+            nav {
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+            .follow-us ul {
+                text-align: center;
+                display: block;
 
-                    nav {
-                        margin-bottom: 2rem;
-                        text-align: center;
-
-                        .follow-us ul{
-                            display: block;
-                            
-                            li {
-                                margin: 0;
-                            }
-                        }
-                    }
-
+                li:nth-child(1), li:nth-child(2) {
+                    margin: 0;
                 }
             }
-
+        }
+    }
     .copyright {
         background: #1a1a1a;
         padding: 1rem;

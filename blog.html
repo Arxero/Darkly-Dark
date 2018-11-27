@@ -5,17 +5,21 @@ permalink: /blog/
 ---
 
 <section class="blog-container">
-        <h2>index.html</h2>
-
-        <ul class="listing posts">
-            {% for post in site.posts %}
-            <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">
-                    <!-- <img src={{post.image}} alt="image"> -->
-                    <span class="title">{{ post.title }}</span>
-                    <span class="date">{{ post.date | date_to_string }}</span>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
+    <ul class="blog-posts">
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <div class="left-side">
+                    <img src={{post.image}} alt="image">
+                </div>
+                <div class="right-side">
+                    <div class="post-title">{{ post.title }}</div>
+                    <span class="post-author">{{post.author}}</span>
+                    <span class="post-dott">•</span>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                </div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </section>

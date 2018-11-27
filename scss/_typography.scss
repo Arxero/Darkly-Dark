@@ -41,3 +41,15 @@ li {
 	list-style-position: inside;
 }
 
+blockquote {
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding: 1rem 2rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+blockquote .author {
+    text-align: right;
+    padding-top: 1rem;
+}
+

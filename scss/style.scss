@@ -8,6 +8,7 @@
 @import './navigatoin';
 @import './about';
 @import './gallery';
+@import './blog.scss';
 
 body {
     background: #111111;
@@ -21,14 +22,6 @@ body {
     padding: 0.7rem 0rem 0rem 0rem;
     border-radius: 3px;
 }
-
-//blog
-.blog-container {
-    //this was added because I need on home page no padding on .site
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
 
 //home page styles
 .home-container {
@@ -75,7 +68,6 @@ body {
     }
 
     .intro  {
-        //this was added because I need on home page no padding on .site
         margin-left: 2rem;
         margin-right: 2rem;
         text-align: center;
@@ -88,11 +80,9 @@ body {
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-
     }
 
     .services {
-        //this was added because I need on home page no padding on .site
         margin-left: 2rem;
         margin-right: 2rem;
         text-align: center;
@@ -100,7 +90,6 @@ body {
         width: 100%;
         background: #333333;
         
-
         h2 {
             padding: 2rem 2rem 0.3rem 2rem;
             text-transform: uppercase;
@@ -124,7 +113,6 @@ body {
                 flex: 1 1 16.00rem;
                 background: var(--dark);
                 border-radius: 5px;
-                // cursor: pointer;
                 
                 p {
                     padding: 1rem 1.5rem;
@@ -139,11 +127,9 @@ body {
                 }
             }
         }
-
     }
 
     .newsletter {
-        //this was added because I need on home page no padding on .site
         margin-left: 2rem;
         margin-right: 2rem;
         text-align: center;
@@ -152,7 +138,6 @@ body {
         background: #393F43;
         padding: 2rem;
         padding-bottom: 2.5rem;
-        // box-shadow: var(--default-box-shadow);
 
         h2 {
             text-transform: uppercase;
@@ -166,4 +151,3 @@ body {
         }
     }
 }
-
