@@ -64,3 +64,33 @@
         }
     }
 }
+
+.shop-item-container {
+    // background: var(--dark);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1.5rem 0;
+
+    .single-item-wrapper {
+        // padding: 2rem;
+        display: flex;
+
+        .item-image, .item-description, .item-buy-info {
+            margin: 1rem;
+            flex: 1 0 33%;
+        }
+        
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    h2 {
+        padding-left: 1rem;
+    }
+    img {
+        width: 20rem;
+        border-radius: 3px;
+    }
+}
