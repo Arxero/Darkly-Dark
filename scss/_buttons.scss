@@ -14,7 +14,7 @@
     margin: .7em;
 
     &:hover {
-        background: #d80101;
+        background: var(--lovely-red);
         transition: background-color .5s ease-in-out;
         text-decoration: none;
     }
@@ -44,7 +44,7 @@
     font-size: .9rem;
 
     &:hover {
-        background: #d80101;
+        background:var(--lovely-red);
         transition: background-color .5s ease-in-out;
         text-decoration: none;
     }
@@ -66,9 +66,39 @@
     font-size: .9rem;
     
     &:hover {
-        background: #d80101;
+        background:var(--lovely-red);
         transition: background-color .5s ease-in-out;
         text-decoration: none;
     }
 
+}
+
+.btn-add-to-cart {
+    padding: .7rem 2.3rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: var(--nav-blue);
+    box-shadow: var(--default-box-shadow);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9rem;
+    width: 100%;
+    position: relative;
+    
+    &:hover {
+        background:var(--lovely-red);
+        transition: background-color .5s ease-in-out;
+        text-decoration: none;
+    }
+
+    .fas.fa-shopping-cart {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        left: 0;
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
 }
