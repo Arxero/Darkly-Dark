@@ -1,0 +1,26 @@
+---
+layout: site
+title: Shop
+permalink: /shop/
+---
+
+<section class="shop-container">
+    {% for item in site.categories.items %}
+    <div class="item-wrapper">
+        <article>
+            <div class="top">
+                <a href="{{ site.baseurl }}{{ item.url }}">
+                    <div class="item-image">
+                        <img src="{{item.image}}" alt="image">
+                    </div>
+                </a>
+            </div>
+
+            <div class="bottom">
+                <a class="item-title" href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+            </div>
+
+        </article>
+    </div>
+    {% endfor %}
+</section>
