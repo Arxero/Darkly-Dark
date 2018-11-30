@@ -66,31 +66,91 @@
 }
 
 .shop-item-container {
-    // background: var(--dark);
     margin-left: 2rem;
     margin-right: 2rem;
-    padding: 1.5rem 0;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
 
     .single-item-wrapper {
-        // padding: 2rem;
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 1rem;
 
-        .item-image, .item-description, .item-buy-info {
-            margin: 1rem;
-            flex: 1 0 33%;
+        .item-image, {
+            flex: 1 0 17rem;
+            margin-bottom: 1rem;
         }
-        
+
+        .item-description {
+            display: block;
+            padding-bottom: 1rem;
+            flex: 1 0 25rem;
+            margin-left: 2rem;
+            ul {
+                margin: 0 1.2rem;
+                li {
+                    list-style-position: outside;
+                }
+             }
+        }
+
+        .item-buy-info {
+            flex: 1 0 10rem;
+
+            .price {
+                // color: var(--lovely-red);
+                font-size: 1.56rem;
+                padding-bottom: .2rem;
+                padding: .3rem .4rem;
+                background: var(--lovely-red);
+                margin-bottom: .7rem;
+                border-radius: 3px;
+                box-shadow: var(--default-box-shadow);
+
+                &:hover {
+                    background: transparent;
+                    transition: background-color .5s ease-in-out;
+                    box-shadow: inset 0 0 0 2px var(--lovely-red);
+                }
+                small {
+                    vertical-align: top;
+                }
+
+            }
+            .stock {
+                background-color: #090;
+                padding: .3rem .4rem;
+                font-size: 75%;
+                font-weight: 700;
+                line-height: 1;
+                color: #fff;
+                text-align: center;
+                margin-bottom: .7rem;
+                border-radius: 3px;
+                box-shadow: var(--default-box-shadow);
+
+                &:hover {
+                    background: transparent;
+                    transition: background-color .5s ease-in-out;
+                    box-shadow: inset 0 0 0 1px #090;
+                }
+
+            }
+
+        }
     }
+
+
 
     ul {
         padding: 0;
     }
 
-    h2 {
-        padding-left: 1rem;
-    }
     img {
-        width: 20rem;
+        width: 100%;
+        max-width: 20rem;
         border-radius: 3px;
+        box-shadow: var(--default-box-shadow);
     }
 }
