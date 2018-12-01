@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/Darkly-Dark/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Darkly-Dark/" rel="alternate" type="text/html" /><updated>2018-11-30T18:51:47+02:00</updated><id>http://localhost:4000/Darkly-Dark/feed.xml</id><title type="html">Darkly Dark</title><subtitle>Simple and yet beautiful design of online shop</subtitle><entry><title type="html">Intel Core i7-9700K Coffee Lake-R, 3.60GHz, Socket 1151, box</title><link href="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/intel-core-i7-9700k-coffee-lake-r-3-60ghz-socket-1151-box.html" rel="alternate" type="text/html" title="Intel Core i7-9700K Coffee Lake-R, 3.60GHz, Socket 1151, box" /><published>2018-11-26T13:14:21+02:00</published><updated>2018-11-26T13:14:21+02:00</updated><id>http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/intel-core-i7-9700k-coffee-lake-r-3-60ghz-socket-1151-box</id><content type="html" xml:base="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/intel-core-i7-9700k-coffee-lake-r-3-60ghz-socket-1151-box.html">&lt;section class=&quot;shop-item-container&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/Darkly-Dark/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Darkly-Dark/" rel="alternate" type="text/html" /><updated>2018-12-01T19:51:01+02:00</updated><id>http://localhost:4000/Darkly-Dark/feed.xml</id><title type="html">Darkly Dark</title><subtitle>Simple and yet beautiful design of online shop</subtitle><entry><title type="html">Intel Core i7-9700K Coffee Lake-R, 3.60GHz, Socket 1151, box</title><link href="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/intel-core-i7-9700k-coffee-lake-r-3-60ghz-socket-1151-box.html" rel="alternate" type="text/html" title="Intel Core i7-9700K Coffee Lake-R, 3.60GHz, Socket 1151, box" /><published>2018-11-26T13:14:21+02:00</published><updated>2018-11-26T13:14:21+02:00</updated><id>http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/intel-core-i7-9700k-coffee-lake-r-3-60ghz-socket-1151-box</id><content type="html" xml:base="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/intel-core-i7-9700k-coffee-lake-r-3-60ghz-socket-1151-box.html">&lt;section class=&quot;shop-item-container&quot;&gt;
     &lt;h2&gt;Intel Core i7-9700K Coffee Lake-R, 3.60GHz, Socket 1151, box&lt;/h2&gt;
     &lt;div class=&quot;single-item-wrapper&quot;&gt;
         &lt;div class=&quot;item-image&quot;&gt;
@@ -20,7 +20,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$419.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -48,7 +48,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$329.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -76,7 +76,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$239.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -104,7 +104,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$320.&lt;small&gt;72&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -131,7 +131,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$569.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 
@@ -155,7 +155,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$579.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;</content><author><name>Maverick</name></author><summary type="html">MANLI GeForce GTX1080 8GB Description 8GB 256-Bit GDDR5X Core Clock 1607 MHz Boost Clock 1733 MHz 1 x DVI-D 2 x HDMI 2.0 2 x DisplayPort 1.4 2560 CUDA Cores PCI Express 3.0 $579.99 In stock Add to Cart</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/shop/MANLI%20GeForce%20GTX1080%208GB.jpg" /></entry><entry><title type="html">Inno3D GeForce GTX 1070 Ti iChill X3 v2, 8GB DDR5, 256-bit</title><link href="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/inno3d-geforce-gtx-1070-ti-ichill-x3-v2-8gb-ddr5-256-bit.html" rel="alternate" type="text/html" title="Inno3D GeForce GTX 1070 Ti iChill X3 v2, 8GB DDR5, 256-bit" /><published>2018-11-26T13:14:21+02:00</published><updated>2018-11-26T13:14:21+02:00</updated><id>http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/inno3d-geforce-gtx-1070-ti-ichill-x3-v2-8gb-ddr5-256-bit</id><content type="html" xml:base="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/inno3d-geforce-gtx-1070-ti-ichill-x3-v2-8gb-ddr5-256-bit.html">&lt;section class=&quot;shop-item-container&quot;&gt;
@@ -178,7 +178,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$550.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;</content><author><name>Maverick</name></author><summary type="html">Inno3D GeForce GTX 1070 Ti iChill X3 v2, 8GB DDR5, 256-bit Description 8GB 256-Bit GDDR5X Core Clock 1607 MHz Boost Clock 1683 MHz 1 x DVI-D 2 x HDMI 2.0 2 x DisplayPort 1.4 2432 CUDA Cores PCI Express 3.0 $550.99 In stock Add to Cart</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/shop/Inno3D%20GeForce%20GTX%201070%20Ti.jpg" /></entry><entry><title type="html">GIGABYTE GeForce® GTX 1060 WINDFORCE 2, 6GB GDDR5, 192-bit</title><link href="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/gigabyte-geforcer-gtx-1060-windforce-2-6gb-gddr5-192-bit.html" rel="alternate" type="text/html" title="GIGABYTE GeForce® GTX 1060 WINDFORCE 2, 6GB GDDR5, 192-bit" /><published>2018-11-26T13:14:21+02:00</published><updated>2018-11-26T13:14:21+02:00</updated><id>http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/gigabyte-geforcer-gtx-1060-windforce-2-6gb-gddr5-192-bit</id><content type="html" xml:base="http://localhost:4000/Darkly-Dark/shop/items/2018/11/26/gigabyte-geforcer-gtx-1060-windforce-2-6gb-gddr5-192-bit.html">&lt;section class=&quot;shop-item-container&quot;&gt;
@@ -203,7 +203,7 @@
         &lt;div class=&quot;item-buy-info&quot;&gt;
             &lt;div class=&quot;price&quot;&gt;$259.&lt;small&gt;99&lt;/small&gt;&lt;/div&gt;
             &lt;div class=&quot;stock&quot;&gt;In stock&lt;/div&gt;
-            &lt;a class=&quot;btn-add-to-cart&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
+            &lt;a class=&quot;btn-add-to-cart blue-border&quot; href=&quot;#&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt;Add to Cart&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/section&gt;</content><author><name>Maverick</name></author><summary type="html">GIGABYTE GeForce® GTX 1060 WINDFORCE 2, 6GB GDDR5, 192-bit Description 6GB 192-Bit GDDR5 Core Clock OC Mode: 1582 MHz Gaming Mode: 1556 MHz Boost Clock OC Mode: 1797 MHz Gaming Mode: 1771 MHz 2 x Dual-link DVI-D 1 x HDMI 2.0b 1 x DisplayPort 1.4 1280 CUDA Cores PCI Express 3.0 x16 $259.99 In stock Add to Cart</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/shop/GIGABYTE%20GeForce%20GTX%201060%20WINDFORCE%202.jpg" /></entry><entry><title type="html">No, The NVIDIA GeForce RTX 2080 Ti Has Not Been Delisted</title><link href="http://localhost:4000/Darkly-Dark/blog/news/2018/11/26/no-nvidia-geforce-rtx-2080-ti-has-not-been-delisted.html" rel="alternate" type="text/html" title="No, The NVIDIA GeForce RTX 2080 Ti Has Not Been Delisted" /><published>2018-11-26T13:14:21+02:00</published><updated>2018-11-26T13:14:21+02:00</updated><id>http://localhost:4000/Darkly-Dark/blog/news/2018/11/26/no-nvidia-geforce-rtx-2080-ti-has-not-been-delisted</id><content type="html" xml:base="http://localhost:4000/Darkly-Dark/blog/news/2018/11/26/no-nvidia-geforce-rtx-2080-ti-has-not-been-delisted.html">&lt;section class=&quot;post-container&quot;&gt;

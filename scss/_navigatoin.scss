@@ -108,9 +108,15 @@ header {
         }
         &>ul>li:not(:last-child) {
             padding: 0 0 0.5rem 0;
-        } // & ul li ul li a {
-        //     background: var(--dark);
-        // }
+        }
+        &>ul>li>a {
+            background: var(--dark);
+        }
+        & ul li ul li a {
+            background: var(--dark);
+            filter: brightness(150%);
+            
+        }
     }
     #nav-toggle:checked+header nav {
         display: block;
@@ -130,7 +136,7 @@ header {
         display: none;
     }
     nav li:hover>ul {
-        /* display: block; */
+        display: block;
         opacity: 1;
         pointer-events: inherit;
         transform: translateY(0);
